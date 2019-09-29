@@ -1,0 +1,624 @@
+.flex{
+    display: flex;
+}
+/*start slider*/
+.slider{
+    height: 450px;
+    overflow: hidden;
+    background-image: url('head12.jpg');  
+    background-size: cover;
+    background-position:0px;
+    background-repeat: no-repeat;
+}
+.slider .intro { 
+    margin-top:200px;
+    color: white;
+    margin-left: 900px;
+    text-align: center;
+}
+.slider .intro h1{    
+    margin: 0;
+    font-size: 35px;
+    width: 245px;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+}
+.slider .intro button{
+    background: none;
+    margin-top:25px;
+    margin-right: 200px;
+    color: white;
+    padding:3px 15px;
+    border:2.5px solid rgb(148, 148, 148);
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*end slider*/
+/*start header*/
+
+.header .navbar{
+background-color: rgb(49, 49, 49);
+overflow: hidden;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+}
+.navbar h2{
+    float: left;
+    color: rgb(201, 201, 201);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
+.navbar h2 span{
+    color: rgb(184, 74, 74)
+}
+.navbar ul{
+    padding-left: 0;
+    list-style: none;
+    overflow: hidden;
+    float: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar ul li{
+    float: right;
+    padding-left: 30px;
+    padding-top: 8px;
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;   
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(201, 201, 201)
+}
+.navbar ul li.active,
+.navbar ul li a:hover{
+    color:rgb(184, 74, 74)
+}
+/*end header*/
+/*start feature*/
+.features{
+    overflow: hidden;
+    padding-top:30px;
+    padding-bottom: 30px
+}
+.features .feet {
+    float: left;
+    width: 31.333%;
+    height: 150px; 
+    padding-left:20px      
+}
+.features .feet h2{
+    color:#444;
+    font-family: Arial;
+    text-transform: capitalize;
+
+}
+.features .feet p{
+    color:#999;
+    line-height: 1.5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*end feature*/
+/*start about me*/
+
+.aboutme{
+    background-color: rgb(241, 241, 241);
+    overflow: hidden;
+    font-family: Arial;
+    height: 400px;
+}
+.aboutme image{
+    width: 40%;
+    height: 400px;
+    float: left;
+}
+.aboutme .image img{
+    height: 400px;
+
+}
+.aboutme .info{
+    width: 60%;
+    float: left;
+}
+.aboutme .info .about-me{
+    margin-left: 45px;
+    margin-top: 35px
+}
+.aboutme .info .about-me h2{
+    color: #444;
+}
+.aboutme .info .about-me p{
+    line-height: 1.4;
+    color:#999;
+    font-size: 14px
+}
+.aboutme .points{
+    margin-left: 45px;
+
+}
+.aboutme .points .content{
+    width: 50%;
+    float: left;
+    margin-top:2px
+}
+.aboutme .points .content .icon{
+    width:10%;
+    float: left;
+    margin-right: 5%;
+    margin-top:12px
+}
+.aboutme .points .content .text{
+    width: 85%;
+    float: left;
+}
+.aboutme .points .content .text h3{
+    color: #444;
+    margin-bottom: 7px;
+    margin-top: 7px
+}
+.aboutme .points .content .text p{
+    line-height: 1.4;
+    color:#999;
+    font-size: 14px;
+    margin-top: 0
+}
+.aboutme .points .content .icon img{
+    width:100%;
+    color: green;
+}
+/*end about me*/
+/*start skills*/
+.skills{
+    padding-top:30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.skills .myprogres{
+    overflow: hidden;
+    float: left;
+    width:45%;
+    font-family: Arial;
+    margin-left: 5%;
+    margin-top:20px;
+
+}
+.skills .myskills{
+    overflow: hidden;
+    float: left;
+    width:50%;
+    font-family: Arial;
+    
+}
+.skills .myskills h2{
+    color: #444
+}
+.skills .myskills p{
+    color: #999;
+    line-height: 1.5;
+
+}
+.skills .myskills button{
+    border:2px solid  rgb(184, 74, 74);
+    background: none;
+    padding: 7px;
+    width:150px;
+    color: rgb(184, 74, 74);
+    margin-top:20px;
+}
+.skills .myprogres h3{
+    margin:0;
+    color: #444
+}
+.skills .myprogres .idea-two{
+    width:100%;
+    margin-top:10px;
+    margin-bottom: 30px
+}
+.skills .myprogres .idea-two .full{
+    background-color: rgb(184, 74, 74);
+    width:75%;
+}
+.skills .myprogres .idea-two .full h4{
+    float:right;
+    margin-bottom: 5px;
+    margin-top:5px;
+    margin-right: 8px;
+    color: white;
+}
+.skills .myprogres .idea-two .empty{
+    background-color: rgb(223, 223, 223);
+    width:25%;
+}
+.skills .myprogres .idea-one{
+    width:100%;
+    margin-top:10px;
+    margin-bottom: 30px
+}
+.skills .myprogres .idea-one .full{
+    background-color: rgb(184, 74, 74);
+    width:90%;
+}
+.skills .myprogres .idea-one .full h4{
+    float:right;
+    margin-bottom: 5px;
+    margin-top:5px;
+    margin-right: 8px;
+    color: white;
+}
+.skills .myprogres .idea-one .empty{    
+    background-color: rgb(223, 223, 223);
+    width:10%;
+}
+.skills .myprogres .idea-three{
+    width:100%;
+    margin-top:10px;
+    margin-bottom: 30px
+}
+.skills .myprogres .idea-three .full{
+    background-color: rgb(184, 74, 74);
+    width:85%;
+}
+.skills .myprogres .idea-three .full h4{
+    float:right;
+    margin-bottom: 5px;
+    margin-top:5px;
+    margin-right: 8px;
+    color: white;
+}
+.skills .myprogres .idea-three .empty{
+    background-color: rgb(223, 223, 223);
+    width:15%;
+}
+.skills .myprogres .idea-fuor{
+    width:100%;
+    margin-top:10px;
+    margin-bottom: 30px
+}
+.skills .myprogres .idea-fuor .full{
+    background-color: rgb(184, 74, 74);
+    width:60%;
+}
+.skills .myprogres .idea-fuor .full h4{
+    float:right;
+    margin-bottom: 5px;
+    margin-top:5px;
+    margin-right: 8px;
+    color: white;
+}
+.skills .myprogres .idea-fuor .empty{
+    background-color: rgb(223, 223, 223);
+    width:40%;
+}
+
+
+/*end skills*/
+/*start resume*/
+.resume{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color:  rgb(241, 241, 241);
+    color:white;
+    font-family: Arial;
+}
+.resume h3{
+    color:#444;
+    margin:40px
+}
+.resume p{
+    color: #999;
+    line-height: 1.5
+}
+.resume button{
+    border:2px solid  rgb(184, 74, 74);
+    background: none;
+    padding: 7px;
+    width:200px;
+    color: rgb(184, 74, 74);
+    margin:30PX
+}
+/*end resume*/
+/*start education */
+.education{
+    padding-top:30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+    border-bottom: 2px solid rgb(179, 179, 179)
+}
+.education .main{
+    overflow: hidden;
+    float: left;
+    width:47.5%;
+    font-family: Arial;
+    margin-right:5%;
+}
+.education .exp{
+    overflow: hidden;
+    float: left;
+    width:47.5%;
+    font-family: Arial;
+    margin-top:50px
+}
+.education .main p{
+    line-height: 1.5;
+    color: #999;
+}
+.education .main h2{
+    color: #444;  
+}
+.education .exp .more{
+    border-bottom: 2px solid rgb(179, 179, 179)
+}
+.education .exp .moree{
+    border-bottom: 2px solid rgb(179, 179, 179)
+}
+.education .exp .more h4{
+    margin-bottom:0;
+    color: #444;
+}
+.education .exp .more p{
+    margin-top:7px;
+    color: #999;
+    margin-bottom:13px 
+}
+.education .exp .more button{
+    color: white;
+    background-color:rgb(184, 74, 74);
+    border:solid rgb(184, 74, 74);
+    margin-bottom: 25px;
+}
+.education .exp .moree >p{
+    margin-top:17px;
+    color: #999;
+    margin-bottom:50px;
+    line-height: 1.5;
+}
+.education .exp .moree h4{
+    margin-bottom:0;
+    color: #444;
+}
+.education .exp .moree p:last-of-type{
+    margin-top:7px;
+    color: #999;
+    margin-bottom:13px 
+}
+.education .exp .moree button{
+    color: white;
+    background-color:rgb(184, 74, 74);
+    border:solid rgb(184, 74, 74);
+    margin-bottom: 25px;
+}
+.education .exp p{
+    margin-top:17px;
+    color: #999;
+    line-height: 1.5;
+}
+/*end education */
+/*start educatione */
+.educatione{
+    padding-top:30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.educatione .main{
+    overflow: hidden;
+    float: left;
+    width:47.5%;
+    font-family: Arial;
+    margin-right:5%;
+}
+.educatione .exp{
+    overflow: hidden;
+    float: left;
+    width:47.5%;
+    font-family: Arial;
+    margin-top:50px
+}
+.educatione .main p{
+    line-height: 1.5;
+    color: #999;
+}
+.educatione .main h2{
+    color: #444;  
+}
+.educatione .exp .more{
+    border-bottom: 2px solid rgb(179, 179, 179)
+}
+.educatione .exp .moree{
+    border-bottom: 2px solid rgb(179, 179, 179)
+}
+.educatione .exp .more h4{
+    margin-bottom:0;
+    color: #444;
+}
+.educatione .exp .more p{
+    margin-top:7px;
+    color: #999;
+    margin-bottom:13px 
+}
+.educatione .exp .more button{
+    color: white;
+    background-color:rgb(184, 74, 74);
+    border:solid rgb(184, 74, 74);
+    margin-bottom: 25px;
+}
+.educatione .exp .moree >p{
+    margin-top:17px;
+    color: #999;
+    margin-bottom:50px;
+    line-height: 1.5;
+}
+.educatione .exp .moree h4{
+    margin-bottom:0;
+    color: #444;
+}
+.educatione .exp .moree p:last-of-type{
+    margin-top:7px;
+    color: #999;
+    margin-bottom:13px 
+}
+.educatione .exp .moree button{
+    color: white;
+    background-color:rgb(184, 74, 74);
+    border:solid rgb(184, 74, 74);
+    margin-bottom: 25px;
+}
+.educatione .exp p{
+    margin-top:17px;
+    color: #999;
+    line-height: 1.5;
+}
+/*end educatione */
+/*start test*/
+.test {
+    padding-top: 50px;
+    padding-bottom: 60px;
+    text-align: center;
+    background-color: rgb(241, 241, 241);
+    overflow: hidden;
+}
+.test p{
+    font-family: Arial;
+    color: #999;
+    line-height: 1.5
+}
+.test h4{
+    font-family: Arial;
+    color: #444;
+}
+.test .move{
+    margin-left: 478px;
+    margin-top:25px
+
+}
+.test .move .rediass{
+    border:1px solid rgb(184, 74, 74);
+    background-color: rgb(184, 74, 74);
+    border-radius: 12px;
+    width: 8px;
+    height: 8px;  
+}
+.test .move .redias{
+    margin-left:5px;
+    border:1px solid rgb(184, 74, 74);
+    border-radius: 12px;
+    width: 8px;
+    height: 8px;  
+}
+/*end test*/
+/*start behance*/
+.behance{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.behance h2{
+    color: #444;
+    font-family: Arial;
+    margin-bottom: 30px
+}
+.behance p{
+    color: #999;
+    font-family: Arial;
+    line-height: 1.5;
+    margin-bottom: 50px
+}
+.behance .ourwork{
+    overflow: hidden;
+}
+.behance .ourwork >div{
+    float: left;
+    max-width:30%;
+    margin-bottom: 4.5px;
+    margin-left:2.77%
+}
+.behance .ourwork >div img{
+    width:100%;
+    margin: 10px;
+    height: 306px;  
+    border: 4px solid rgb(202, 202, 202)
+}
+/*end behance*/
+/*start contact me*/
+.contactme{
+    background-color: rgb(49, 49, 49);  
+    overflow: hidden;
+    padding-top:40px;
+    padding-bottom: 30px 
+} 
+.contactme .info{
+    width: 50%;
+    float: left;    
+
+}
+.contactme .form{
+    width: 43%;
+    float: left;  
+    margin-top:20px;
+    margin-left: 7%   
+}
+.contactme .info h2{
+    color: white;
+    font-family: Arial;
+    margin-bottom: 30px
+}
+.contactme .info p{
+    color: #999;
+    font-family: Arial;
+    line-height: 1.5;
+    font-size: 13px
+}
+.contactme .info .contact{
+    margin-bottom: 35px;
+}
+.contactme .info .address{
+    line-height: 0.7;    
+}
+.contactme .info .phone{
+    margin-top:35px;
+}
+.contactme .form h5{
+    margin-bottom: 8px;
+    margin-top:30px;
+    color: white;
+    font-family: Arial;
+}
+.contactme .form .email{
+    width:100%;
+    height: 35px;
+    background-color: rgb(77, 77, 77);
+    border: 1px solid rgb(77, 77, 77)
+}
+.contactme .form .message{
+    width:100%;
+    height: 200px;
+    background-color: rgb(77, 77, 77);
+    border: 1px solid rgb(77, 77, 77)
+}
+.contactme .form button{
+    color:white;
+    font-family: Arial,bold;
+    background-color: rgb(26, 25, 25);
+    border:1px solid rgb(26, 25, 25);
+    padding: 12px;
+    width:170px;
+    margin-top:30px
+}
+/*end contact me*/
+/*start footer*/
+.footer{
+    background-color: rgb(24, 24, 24);
+    color:#999;
+    text-align: center;
+    font-family: Arial;
+    padding:20px;
+
+}
+/*end footer*/
+
+
